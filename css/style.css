@@ -32,6 +32,30 @@ p {
     padding: 0 20px;
 }
 
+.text-primary {
+    color: #32cd32;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    /* buttons by default have borders, so remove that */
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #32cd32;
+    color: #333;
+}
+
 
 
 /* Navbar */
@@ -71,3 +95,26 @@ p {
     color: #32cd32;
 
 }
+
+/* Showcase */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
