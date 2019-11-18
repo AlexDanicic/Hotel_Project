@@ -36,7 +36,8 @@ p {
 }
 
 .text-primary {
-    color: #32cd32;
+    /* color: #32cd32; */
+    color: #d3ad77;
 }
 
 .lead {
@@ -55,7 +56,8 @@ p {
 }
 
 .btn:hover {
-    background: #32cd32;
+    /* background: #32cd32; */
+    background: #d3ad77;
     color: #333;
 }
 
@@ -75,7 +77,8 @@ p {
 }
 
 .bg-primary {
-    background: #32cd32;
+    /* background: #32cd32; */
+    background: #d3ad77;
     color: #333;    
 }
 
@@ -118,7 +121,8 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current {
     background: #444;
-    color: #32cd32;
+    /* color: #32cd32; */
+    color: #d3ad77;
 
 }
 
